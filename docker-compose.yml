@@ -17,7 +17,7 @@ services:
     container_name: redis-insight
     restart: unless-stopped
     ports:
-      - "8090:8001"
+      - "8090:5540"
     volumes:
       - redis-insight-data:/db  
 

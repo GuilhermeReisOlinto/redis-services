@@ -8,3 +8,6 @@ down:
 
 logs:
 	docker-compose logs -f
+
+ip: 
+	docker inspect redis-insight | grep "IPAddress"
